@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html,body{
+    max-width: 100vw;
+    min-height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(51, 168, 129, 0.767);
+    padding: 10px 5px;
+}
+header ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    color: rgb(95, 94, 93);
+}
+header .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar-container .logo{
+    flex-basis: 15%;
+    max-width: 15%;
+}
+header .navbar-container nav{
+    flex-basis: 65%;
+    max-width: 65%;
+}
+header .navbar-container nav ul{
+    gap:20px;
+}
+header .navbar-container nav ul li:nth-child(6){
+    margin-right: 20px;
+}
+header .navbar-container nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: block;
+}
+header .navbar-container .social-icons{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+header .navbar-container .social-icons ul{
+    gap: 25px;
+}
+header .navbar-container .social-icons ul li:nth-child(1){
+    margin-right: auto;
+    margin-left: 15px;
+    padding: 0 25px;
+    border-left: 1px rgb(95, 94, 93) solid;
+    border-right: 1px rgb(95, 94, 93) solid;
+}
